@@ -91,19 +91,21 @@ img{
     background-size: cover;
     padding-bottom: 100px;
 }
-.logo-icon-bottom i{
-    font-size: 30px;
-    padding: 13px 18px;
-    border-radius: 5px;
+.show{
     background: var(--color-2);
+    height: 50px;
+    width: 52px;
     color: var(--color-1);
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.show i{
+    font-size: 32px;
     display: none;
     cursor: pointer;
-    transition: 0.5s all ease-in-out;
-}
-.logo-icon-bottom i:hover{
-    color: var(--color-2);
-    background: var(--color-4);
 }
 .loging-area-2{
     display: none;

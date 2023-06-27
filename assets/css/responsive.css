@@ -14,10 +14,11 @@
         max-width: 80%;
     }
 	.header-top {
-	  box-shadow: 0px 0px 15px gray;
-	  padding: 5px 30px;
-	  border-radius: 5px;
-	}
+        box-shadow: 0px 0px 15px gray;
+        padding: 5px 30px;
+        border-radius: 5px;
+        padding-bottom: 15px;
+    }
     .header-respon{
         flex-direction: column;
     }
@@ -26,12 +27,11 @@
     }
     .menu {
         position: absolute;
-		width: 31%;
+		width: 0%;
 		background: #c2abd9;
 		border-radius: 10px;
-		top: 14.7%;
-		right: 10.7%;
-        display: none;
+		top: 17%;
+		right: -110.7%;
     }
     .menu ul {
         flex-direction: column;
@@ -39,11 +39,12 @@
     .menu ul li{
         padding: 15px 0;
     }
-    .logo-icon-bottom i{
+    .show i{
         display: block;
     }
-    .logo-icon-bottom {
-        margin-left: 30px;
+    .open{
+        width: 50%;
+        right: 0;
     }
     .loging-area{
         display: none;
@@ -87,9 +88,6 @@
     .container, .container-sm {
         max-width: 85%;
     }
-    .menu {
-        width: 40% !important;
-    }
     .impression-area-top p {
         max-width: 70%;
     }
@@ -125,20 +123,25 @@
     .impression-box-width {
         width: 100% !important;
     }
+    .show {
+        background: var(--color-2);
+        height: 37px;
+        width: 42px;
+        color: var(--color-1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+    }
     
 }
 @media all and (max-width:480px) {
     .header-area{
         padding-top: 25px;
     }
-    .menu {
-        top: 19%;
-		width: 88% !important;
-		right: 5.7%;
-    }
-    .loging-area-2 .btn1{
-        padding: 20px 25px;
-    }
+    .loging-area-2 .btn1 {
+		padding: 12px 16px;
+	}
     .logo{
         flex-direction: column;
     }
