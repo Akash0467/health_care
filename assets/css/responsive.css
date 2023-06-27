@@ -1,0 +1,172 @@
+@media all and (min-width:993px){
+    .menu{
+        display: block;
+    }
+}
+@media all and (max-width:992px) {
+    h1{
+        font-size: 40px;
+    }
+    h2{
+       font-size: 30px;
+    }
+    .container, .container-md {
+        max-width: 80%;
+    }
+	.header-top {
+	  box-shadow: 0px 0px 15px gray;
+	  padding: 5px 30px;
+	  border-radius: 5px;
+	}
+    .header-respon{
+        flex-direction: column;
+    }
+    .header-responsive2{
+        width: 950px;
+    }
+    .menu {
+        position: absolute;
+		width: 31%;
+		background: #c2abd9;
+		border-radius: 10px;
+		top: 14.7%;
+		right: 10.7%;
+        display: none;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu ul li{
+        padding: 15px 0;
+    }
+    .logo-icon-bottom i{
+        display: block;
+    }
+    .logo-icon-bottom {
+        margin-left: 30px;
+    }
+    .loging-area{
+        display: none;
+    }
+    .loging-area-2{
+        display: block;
+    }
+    .bennar-area-left {
+        padding: 60px 0;
+    }
+    .impression-area-item {
+        margin-bottom: 25px;
+    }
+    .department-area-top {
+        margin-bottom: 25px;
+    }
+    .department-area-bottom {
+        padding: 0;
+        text-align: center;
+    }
+    .department-area-bottom .faka-stale {
+        margin: auto;
+        margin-bottom: 40px; 
+    }
+    .department-area-bottom p {
+        margin: auto;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .impression-area-top p {
+        max-width: 50%;
+    }
+    .footer-area-item {
+        margin-bottom: 50px;
+    }
+    .faq-area-top p {
+        max-width: 100% !important;
+    }
+}
+@media all and (max-width:768px){
+    .container, .container-sm {
+        max-width: 85%;
+    }
+    .menu {
+        width: 40% !important;
+    }
+    .impression-area-top p {
+        max-width: 70%;
+    }
+    .input-group {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        max-width: 750px;
+        margin: auto;
+        width: 80% !important;
+    }
+    .bennar-area-left p {
+        max-width: 100%;
+    }
+}
+@media all and (max-width:574px) {
+    h1{
+        font-size: 30px;
+    }
+    h2{
+       font-size: 25px;
+    }
+    .container, .container-sm {
+        max-width: 95%;
+    }
+    .menu {
+        width: 50%  !important;
+    }
+    .impression-area-top p {
+        max-width: 80%;
+    }
+    .impression-box-width {
+        width: 100% !important;
+    }
+    
+}
+@media all and (max-width:480px) {
+    .header-area{
+        padding-top: 25px;
+    }
+    .menu {
+        top: 19%;
+		width: 88% !important;
+		right: 5.7%;
+    }
+    .loging-area-2 .btn1{
+        padding: 20px 25px;
+    }
+    .logo{
+        flex-direction: column;
+    }
+    .logo-icon{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .impression-area-top p {
+        max-width: 100%;
+    }
+    .impression-box-width {
+        width: 100%;
+    }
+    .form-control {
+        display: block;
+        width: 100%;
+        padding: 0rem 0.25rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        appearance: none;
+        border-radius: .375rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        outline: none;
+        border: none;
+    }
+}
